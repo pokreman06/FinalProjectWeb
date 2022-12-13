@@ -1,0 +1,56 @@
+body {
+    background-image: url("images/mountains-g3cad47f84_1920.jpg");
+
+}
+.socialmedialogo {
+    width: 5em;
+    }
+.trailcrew {
+    width: 30%;
+}
+main {
+    background-color: rgba(235, 193, 135, 0.5);
+}
+.yee {
+    width: 90%;
+}
+article {
+    background-color: wheat;
+    padding: 50px;
+}
+.p {
+    width: 20em;
+}
+.person {
+    width: 50%;
+}
+h1 {
+    border-bottom: 3px solid black;
+}
+
+@media (min-width: 700px){
+    .flex.c {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .flex.r {
+        display: flex;
+        flex-direction: row;
+    }
+    ul {
+        list-style: none;
+    }
+    li {
+        border: auto;
+    }
+}
+@media (max-width: 700px) {
+    .trailcrew {
+        display: none;
+    }
+    img {
+        width: auto;
+    }
+}
+

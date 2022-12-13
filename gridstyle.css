@@ -1,0 +1,11 @@
+main {
+    display: grid;
+    grid-template-areas: "date0 data0"
+                         "date1 data1"
+                         "date2 data2"
+                         "date3 data3"
+                         "date4 data4"
+                         "date5 data5"
+                         "date6 data6";
+}
+
